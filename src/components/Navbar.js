@@ -15,6 +15,7 @@ class Navbar extends Component {
         </div>
 
         <div id="navbarExampleTransparentExample" class="navbar-menu">
+
           <div className="navbar-start">
             <Anchor 
             text="Home"
@@ -33,8 +34,8 @@ class Navbar extends Component {
             classes="button is-primary"
             />
           </div>  
+          
         </div>
-        
       </nav>
     );
   }
